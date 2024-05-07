@@ -1,1 +1,3 @@
-console.log("radi")
+console.log("radi");
+// alert("po hairu djemsi!!")
+
