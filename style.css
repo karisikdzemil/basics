@@ -80,12 +80,12 @@ strong{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: beige;
+    background-color: rgb(243, 243, 243);
 }
 .cards{
     width: 100%;
     height: 60vh;
-    background-color: blueviolet;
+    /* background-color: rgb(167, 162, 162); */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -94,7 +94,12 @@ strong{
 .card{
     width: 25%;
     height: 45vh;
-    background-color: red;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 h1{
     color: rgb(59, 59, 59);
@@ -104,4 +109,19 @@ p{
 }
 #second-butt{
     width: 35%;
+    /* padding: 2rem; */
+    margin-bottom: 2rem;
+}
+.icon{
+   font-size: 6rem;
+   color: pink;
+}
+.second-page-paragraph{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+#second-page-head{
+    padding-top: 2rem;
 }
