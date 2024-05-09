@@ -54,28 +54,21 @@ li {
 }
 .butt{
     width: 50%;
-    height: 9vh;
+    height: 10vh;
     font-size: 22px;
     font-weight: 700;
-    border: 1px solid black;
     border-radius: 5px;
-    background-color: rgb(97, 179, 247);
+    background-color: rgb(55, 152, 232);
     color: white;
 
 }
 #first-page-paragraph{
-    color: rgb(108, 108, 108);
-    width: 100%;
-    height: 20vh;
     font-size: 25px;
-    /* background-color: red; */
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     font-weight: 300;
     
 }
 strong{
-    color: rgb(19, 18, 18);
+    color: rgb(33, 32, 32);
 }
 .naslov{
     font-size: 3rem;
@@ -83,11 +76,15 @@ strong{
 .second-page{
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: beige;
 }
 .cards{
     width: 100%;
-    height: 40vh;
+    height: 60vh;
     background-color: blueviolet;
     display: flex;
     flex-direction: row;
@@ -95,7 +92,16 @@ strong{
     align-items: center;
 }
 .card{
-    width: 20%;
-    height: 40vh;
+    width: 25%;
+    height: 45vh;
     background-color: red;
+}
+h1{
+    color: rgb(59, 59, 59);
+}
+p{
+    color: gray;
+}
+#second-butt{
+    width: 35%;
 }
